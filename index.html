@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Palindrome</title>
+</head>
+<body>
+    <section class="page">
+        <h1>Palindrome Game</h1>
+        <h3 class="score">Score: 0 out of 0</h3>
+        <div class="outer">
+            <div class="texty">
+                <div class="input">
+                    <p>Enter Word:</p>
+                    <input type="text" onkeypress="return AvoidSpace(event)" class="insideInput">
+                </div>
+                <div>
+                    <button class="btn">Check</button>
+                </div>
+            </div>
+            <div class="outDiv">
+                <h2 class="out hidden"></h2>
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
